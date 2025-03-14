@@ -21,11 +21,16 @@ main {
 
 /* Styling for the 'How to Take Action' section */
 #take-action {
-    background-color: #f0e6d2; /* Light beige background for the section */
+    background-color: #f4f1e1; /* Light beige background for the section */
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 12px;
     margin-top: 30px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+
+#take-action:hover {
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
 }
 
 #take-action h2 {
@@ -33,7 +38,7 @@ main {
     color: #2a3d3d; /* Deep green color */
     margin-bottom: 20px;
     text-align: center;
-    font-weight: bold;
+    font-weight: 600;
 }
 
 .action-item {
@@ -59,12 +64,12 @@ main {
 }
 
 .action-item h3:hover {
-    color: #5d8f77; 
+    color: #5d8f77; /* Greenish blue on hover */
 }
 
 .action-item p {
     font-size: 1.1rem;
-    color: #2c3e50; 
+    color: #2c3e50; /* Darker gray text */
     margin-bottom: 20px;
     line-height: 1.6;
 }
@@ -76,17 +81,17 @@ main {
 
 .action-item ul li {
     font-size: 1rem;
-    color: #4f5d73; 
+    color: #4f5d73; /* Muted gray-blue */
     margin-bottom: 15px;
     transition: color 0.3s ease;
 }
 
 .action-item ul li:hover {
-    color: #f39c12;
+    color: #f39c12; /* Golden yellow on hover */
 }
 
 .action-item ul li a {
-    color: #2980b9;
+    color: #2980b9; /* Bright blue links */
     text-decoration: none;
     font-weight: bold;
     transition: color 0.3s ease;
@@ -94,7 +99,7 @@ main {
 
 .action-item ul li a:hover {
     text-decoration: underline;
-    color: #e74c3c; 
+    color: #e74c3c; /* Red color on hover */
 }
 
 /* Footer Styling */
@@ -139,7 +144,7 @@ header {
 }
 
 header .logo {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     font-weight: bold;
     margin-left: 20px;
 }
@@ -157,14 +162,14 @@ header nav ul li {
 
 header nav ul li a {
     color: white;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-decoration: none;
-    font-weight: bold;
+    font-weight: 600;
     transition: color 0.3s ease;
 }
 
 header nav ul li a:hover {
-    color: #f39c12;
+    color: #f39c12; /* Golden yellow hover effect */
 }
 
 footer .footer-container {
