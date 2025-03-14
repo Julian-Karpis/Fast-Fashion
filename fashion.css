@@ -1,0 +1,176 @@
+/* Ensure the body and html take up the full height */
+html, body {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7; /* Light gray background */
+    color: #333;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Main content should take all available space, pushing footer to the bottom */
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff; /* White background for the content area */
+}
+
+/* Styling for the 'How to Take Action' section */
+#take-action {
+    background-color: #f0e6d2; /* Light beige background for the section */
+    padding: 40px;
+    border-radius: 10px;
+    margin-top: 30px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+#take-action h2 {
+    font-size: 2.5rem;
+    color: #2a3d3d; /* Deep green color */
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.action-item {
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.action-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.action-item h3 {
+    font-size: 1.75rem;
+    color: #be5e3d; /* Rich brown-orange */
+    margin-bottom: 15px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.action-item h3:hover {
+    color: #5d8f77; 
+}
+
+.action-item p {
+    font-size: 1.1rem;
+    color: #2c3e50; 
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.action-item ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.action-item ul li {
+    font-size: 1rem;
+    color: #4f5d73; 
+    margin-bottom: 15px;
+    transition: color 0.3s ease;
+}
+
+.action-item ul li:hover {
+    color: #f39c12;
+}
+
+.action-item ul li a {
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.action-item ul li a:hover {
+    text-decoration: underline;
+    color: #e74c3c; 
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2a3d3d; /* Deep green background */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto; /* Pushes footer to bottom of the page */
+    position: relative; /* Ensures footer is part of the normal flow */
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer .social-media a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+    color: #f39c12; /* Golden yellow hover effect */
+}
+
+/* Header Navigation */
+header {
+    background-color: #be5e3d; /* Rich brown-orange background */
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    margin-right: 30px;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #f39c12;
+}
+
+footer .footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
