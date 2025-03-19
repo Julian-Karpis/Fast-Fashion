@@ -19,4 +19,5 @@ const brands = {
     "burt's bees": { sustainable: true, reason: "Eco-friendly packaging, natural ingredients" },
     "l'oreal": { sustainable: false, reason: "Testing on animals, harmful chemicals in products" },
     "nestle": { sustainable: false, reason: "Child labor issues, environmental harm" }
+    
 };
