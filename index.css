@@ -203,6 +203,7 @@ footer a:hover {
     font-family: 'Montserrat';
     font-weight: 700;
     margin-bottom: 0;
+    color: white;
 }
 
 .title2 {
@@ -210,17 +211,21 @@ footer a:hover {
     font-size: 70px;
     font-family: 'Montserrat';
     font-weight: 700;
+    color: #5CF64A;
 }
 
 .underTitle {
     font-size: 20px;
     font-family: 'Montserrat';
+    color: white;
+    margin-top: 50px;
 }
 
 .firstPage{
     align-items: left;
     padding: 0;
-    margin: 0;
+    margin-top: 100px;
+    margin-left: 20px;
 }
 
 .headPage{
@@ -228,7 +233,10 @@ footer a:hover {
     align-items: left;
     padding: 20px;
     background-image: url('bilder/fast-fashion.jpg');
+    background-size: cover;
+    background-position: center;
     width: 100vw;
+    height: 100vh;
     box-sizing: border-box;
     
 }
