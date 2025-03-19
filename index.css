@@ -35,6 +35,12 @@ img {
     max-width: 100%;
     height: auto;
 }
+header img {
+    max-width: 200px;
+    padding: 0px;
+    margin: 0px;
+
+}
 
 /* General Body Styling */
 body {
@@ -237,3 +243,5 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+
