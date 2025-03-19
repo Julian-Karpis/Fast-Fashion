@@ -205,5 +205,7 @@ footer .footer-container {
     align-items: left;
     padding: 20px;
     background-color:#2980b9;
+    width: 100vw;
+    box-sizing: border-box;
     
 }
