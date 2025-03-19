@@ -237,3 +237,38 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.title {
+    font-size: 70px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.title2 {
+    margin-top: 0;
+    font-size: 70px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+}
+
+.underTitle {
+    font-size: 20px;
+    font-family: 'Montserrat';
+}
+
+.firstPage{
+    align-items: left;
+    padding: 0;
+    margin: 0;
+}
+
+.headPage{
+    display: flex;
+    align-items: left;
+    padding: 20px;
+    background-color:#2980b9;
+    width: 100vw;
+    box-sizing: border-box;
+    
+}
