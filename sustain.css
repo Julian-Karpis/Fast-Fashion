@@ -1,7 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-    --header: #F3EFE7
+    --header: #F3EFE7;
+    --beige: #FDFAF6;
+    --blue: #E4EFE7;
+    --green: #99BC85;
 }
 
 html {
@@ -43,13 +46,12 @@ header img {
     max-width: 200px;
     padding: 0px;
     margin: 0px;
-
 }
 
 /* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background: linear-gradient(135deg, #f5a623, #f06d80); /* Gradient background */
+    background: linear-gradient(135deg, var(--blue), var(--green)); /* Gradient background with new colors */
     color: #333;
     margin: 0;
     padding: 0;
@@ -95,7 +97,6 @@ nav ul li a:hover {
     color: #ccc;
 }
 
-
 main {
     width: 100%;
     padding: 50px 20px;
@@ -108,7 +109,6 @@ main {
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
     margin-top: 50px;
 }
-
 
 .container {
     background-color: white;
@@ -131,7 +131,7 @@ h1 {
 input[type="text"] {
     padding: 15px;
     width: 80%;
-    border: 2px solid #f06d80;
+    border: 2px solid var(--green); /* Changed to use the new green color */
     border-radius: 5px;
     margin-bottom: 15px;
     font-size: 16px;
@@ -139,13 +139,13 @@ input[type="text"] {
 }
 
 input[type="text"]:focus {
-    border-color: #5c9eff;
+    border-color: var(--blue); /* Changed to use the new blue color */
     outline: none;
 }
 
 button {
     padding: 15px 35px;
-    background-color: #f06d80;
+    background-color: var(--green); /* Changed to use the new green color */
     color: white;
     border: none;
     border-radius: 5px;
@@ -155,22 +155,20 @@ button {
 }
 
 button:hover {
-    background-color: #f5a623;
+    background-color: var(--blue); /* Changed to use the new blue color */
     transform: translateY(-2px);
 }
-
 
 .result {
     margin-top: 20px;
     padding: 20px;
-    background-color: #f4f4f9;
+    background-color: var(--beige); /* Changed to use the new beige color */
     border-radius: 8px;
     font-size: 20px;
     color: #333;
     min-height: 50px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
 }
-
 
 footer {
     width: 100%;
@@ -189,7 +187,7 @@ footer p {
 }
 
 footer a {
-    color: #f06d80;
+    color: var(--green); /* Changed to use the new green color */
     text-decoration: none;
     font-weight: 600;
 }
@@ -230,6 +228,4 @@ footer a:hover {
     background-image: url('bilder/fast-fashion.jpg');
     width: 100vw;
     box-sizing: border-box;
-    
 }
-
