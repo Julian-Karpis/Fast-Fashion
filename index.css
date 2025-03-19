@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+:root {
+    --header: #F3EFE7
+}
+
 html {
     box-sizing: border-box;
     font-size: 16px;
@@ -58,8 +62,8 @@ body {
 /* Header Styling */
 header {
     width: 100%;
-    background-color: #333;
-    color: white;
+    background-color: #F3EFE7;
+    color: #F3EFE7;
     padding: 15px 20px;
     display: flex;
     justify-content: space-between;
