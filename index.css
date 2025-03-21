@@ -15,7 +15,7 @@
 
     nav ul {
         display: flex;
-        flex-direction: column; /* Stack navigation links vertically */
+      
         align-items: flex-start;
         margin: 0;
     }
