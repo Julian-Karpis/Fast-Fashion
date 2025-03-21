@@ -1,5 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
+@media screen and (max-width: 768px) {
+    /* Header Styling */
+    header {
+        padding: 10px 15px;
+        flex-direction: column; /* Stack the logo and navigation vertically */
+        align-items: flex-start; /* Align to the left */
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column; /* Stack navigation links vertically */
+        align-items: flex-start;
+        margin: 0;
+    }
+
+    nav ul li {
+        margin-left: 0;
+        padding-left: 0;
+        margin-bottom: 10px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px; /* Smaller font size for smaller screens */
+    }
+
+    .title {
+        font-size: 40px; /* Smaller title font for smaller screens */
+    }
+
+    .title2 {
+        font-size: 40px; /* Smaller title2 font for smaller screens */
+    }
+
+    .underTitle {
+        font-size: 16px; /* Smaller underTitle font for smaller screens */
+    }
+
+    .firstPage {
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .headPage {
+        min-height: 60vh; /* Reduce the height of the header section */
+    }
+
+    footer {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    footer a {
+        font-size: 14px; /* Slightly smaller font size for links */
+    }
+}
+
+
 :root {
     --header: #F3EFE7
 }
